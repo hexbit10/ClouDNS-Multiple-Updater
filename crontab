@@ -1,2 +1,2 @@
-*/2 * * * * /usr/bin/python3 main.py
+*/2 * * * * /usr/bin/python3 update.py
 # Don't remove the empty line at the end of this file. It is required to run the cron job

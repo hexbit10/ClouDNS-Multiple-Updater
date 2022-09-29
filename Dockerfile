@@ -4,7 +4,7 @@ RUN apt-get update && apt-get -y install cron
 
 
 COPY requirements.txt requirements.txt
-COPY update.py /app/update.py
+COPY update.py update.py
 
 RUN touch /var/log/cron.log
 
