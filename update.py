@@ -2,9 +2,9 @@ import os
 import json
 from dotenv import load_dotenv
 import sys
+from datetime import datetime
 
-print("Executing...")
-print(os.getenv('DOMAIN_LIST'))
+print(datetime.now().strftime("%H:%M:%S")+"Executing...")
 
 load_dotenv()
 DOMAIN_LIST = json.loads(os.getenv('DOMAIN_LIST'))
@@ -20,4 +20,4 @@ else:
         page = urllib.request.urlopen(url);
         page.close();
 
-print("Done")
+print(datetime.now().strftime("%H:%M:%S")+"Done")
