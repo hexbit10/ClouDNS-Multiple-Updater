@@ -21,7 +21,7 @@ DOMAIN_LIST='["https://ipv4.cloudns.net/api/dynamicURL/?q=<token1>", "https://ip
 version: "3.9"
 services:
   app:
-    image: "hexax/cloudns-multiple-updater:v11"
+    image: "hexax/cloudns-multiple-updater:v12"
     volumes:
       - ./.env:/app/.env
 ```
